@@ -12,7 +12,10 @@ the singularity image:
 ```bash
 singularity pull library://daskelly/remote-builds/tidyqtl2-r4.0.0:1.0.0
 ```
-and execute the code
+(You may need to log in to singularity using a token
+with `singularity remote login` first).
+
+Finally, execute the code
 ```bash
 bash run_code_singularity.sh
 ```
