@@ -1,0 +1,5 @@
+figshare
+figshare_data/*
+!figshare_data/README
+*.RData
+*.sif
