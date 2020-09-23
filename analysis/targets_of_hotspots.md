@@ -26,11 +26,13 @@ dat <- read_excel("Table_S2.xlsx", sheet=2,
 targets <- filter(dat, hotspot_id == hotspot) %>% select(target_id, target_symbol) %>% distinct()
 ```
 
-Note that the exact number of hotspot targets might differ slightly
-from numbers reported in various parts of the manuscript. Initial
+Note that, depending on the hotspot, 
+the exact number of hotspot targets might differ slightly
+from numbers discussed in some sections of the manuscript. Initial
 reports of hotspots were based on mapping conducted independently
 in the gene expression or chromatin accessibility datasets,
-as appropriate. Table S2 presents results from mediation analyses,
+as appropriate. 
+In contrast, Table S2 presents results from mediation analyses,
 which were performed using the subset of samples present in both the 
 gene expression and chromatin accessibility datasets.
 
